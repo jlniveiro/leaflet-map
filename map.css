@@ -1,0 +1,94 @@
+#map {
+  height:70%;
+  width: 90%;
+  position:absolute;
+  //top: 20%;
+  //bottom: 20%;
+  margin: 100 50 100 50;
+}
+
+#info{
+  position:absolute;
+  top: 0;
+  width: 100%
+  height: 200px;
+}
+
+.contenido {
+  font-family: Open Sans;
+  font-size: 9pt;
+  color: #707070;
+  line-height:1px;
+}
+
+.titulo{
+  font-family: Open Sans;
+  font-size: 9pt;
+  padding: 2px;
+  line-height:2px;
+  //background: #4C7D2B;
+}
+
+
+.titulo a{
+  color: #FFFFFF;
+}
+
+
+/* Eliminamos controles de leaftlet */
+.seiasa .leaflet-control-attribution {
+    display:none;
+}
+/* botón de cerrar (oculto pero se deberia de hacer desde la configuración del leaflet)*/
+.leaflet-popup-close-button {
+    display:none;
+}
+
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-content-wrapper {
+    box-shadow:none;
+    border: 1px solid #4C7D2B;
+    border-radius: 2px 2px 0px 0px;
+   opacity: 1;
+   font-family: 'OpenSans';
+}
+
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {
+    font-family:'OpenSans';
+    min-width:170px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:13px;
+    margin: -9px -1px 0px -1px;
+}
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .contenido {
+    font-family: 'OpenSans';
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .titulo {
+    font-family:'OpenSans';
+    font-weight:bold;
+    font-size:13px;
+    background: #4C7D2B;
+    color: #ffffff;
+    display: block;
+    line-height: 23px;
+    text-align: center;
+    text-transform:capitalize;
+    letter-spacing:1px;
+    margin-top: -19px;
+    margin-right: -5px;
+    margin-left: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content .titulo:hover {
+    text-decoration:none;
+}
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-tip-container{
+    margin-top: -1.1px;
+}
+.seiasa .leaflet-container .leaflet-popup .leaflet-popup-tip {
+    border-right: 1px solid #4C7D2B;
+    border-bottom: 1px solid #4C7D2B;
+}

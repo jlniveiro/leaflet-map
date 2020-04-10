@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Mi primer mapa en Leaflet</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet/MarkerCluster.css">
+    <link rel="stylesheet" href="lib/leaflet/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet-search.css" />
+    <link rel="stylesheet" href="map.css">
+  </head>
+  <body>
+    <div id="info">
+      <h1 id="name"></h1>
+      <h2 id="coordinates"></h2>
+      <h3 id="link"><a href="" target="_blank" id="link_anchor"></a></h3>
+      <button id="addPuntos" name="addPuntos" value="Añadir puntos" onclick="javascript:mostrarMarkers();"/>
+    </div>
+    <div id="map">
+    </div>
+  </<body>
+  <script src="lib/Leaflet/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="lib/Leaflet/leaflet.markercluster-src.js"></script>
+  <script src="lib/leaflet/leaflet-search.js"></script>
+  <script src="markers.js"></script>
+  <script src="map.js"></script>
+
+
+</html>
